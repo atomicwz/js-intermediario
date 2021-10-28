@@ -27,6 +27,7 @@ const button = document.querySelectorAll('button')
 function backSlide(){
     i--   
     slide[i].classList.remove('ativo')
+    btnNext.style.opacity = '100%'
     
 }
 button[1].addEventListener('click', nextSlide)
