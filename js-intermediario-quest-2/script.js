@@ -14,6 +14,12 @@ function mostrarParagrafo1(){
         paragrafo[1].classList.remove('ativo');
         paragrafo[2].classList.remove('ativo');
 
+
+    }
+    if(setaCinza[1].classList.contains('seta-desativada') == true || setaCinza[2].classList.toggle('seta-desativada') == true ){
+        
+        setaCinza[1].classList.remove('seta-desativada')
+        setaCinza[2].classList.remove('seta-desativada')
     }
 
 
@@ -30,6 +36,11 @@ function mostrarParagrafo2(){
         paragrafo[2].classList.remove('ativo');
 
     }
+    if(setaCinza[0].classList.contains('seta-desativada') == true || setaCinza[2].classList.toggle('seta-desativada') == true ){
+        
+        setaCinza[0].classList.remove('seta-desativada')
+        setaCinza[2].classList.remove('seta-desativada')
+    }
 
 }
 function mostrarParagrafo3(){
@@ -42,7 +53,12 @@ function mostrarParagrafo3(){
         
         paragrafo[0].classList.remove('ativo');
         paragrafo[1].classList.remove('ativo');
+    }
 
+    if(setaCinza[0].classList.contains('seta-desativada') == true || setaCinza[1].classList.toggle('seta-desativada') == true ){
+        
+        setaCinza[0].classList.remove('seta-desativada')
+        setaCinza[1].classList.remove('seta-desativada')
     }
 
 

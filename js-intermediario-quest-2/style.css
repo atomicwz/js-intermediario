@@ -44,6 +44,7 @@ p, h1, h3{
 .box-item p{
     font-weight: 300;
     margin-top: 5px;
+    max-width: 80%;
 }
 
 
@@ -65,9 +66,9 @@ p, h1, h3{
     cursor: pointer;
 }
 
-
 .acordeon-item{
     display: none;
+    animation: animacao .4s;
 }
 
 .ativo{
@@ -76,4 +77,16 @@ p, h1, h3{
 
 .seta-desativada{
     display: none;
+}
+
+@keyframes animacao {
+    0%{
+        transform: translateX(40px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
