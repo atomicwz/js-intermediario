@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Roboto', sans-serif; */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 20px 0 20px 0;
+    font-size: 1rem;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+body{
+    background: blue;
+}
+
+
+.amarelo{
+    color: yellow;
+}
+.vermelho{
+    color: red;
+}
+.azul{
+    color: rgb(90, 154, 250);
+}
+.azul{
+    color: green;
+}
+.item-1,.item-2,.item-3,.item-4{
+    display: none;
+    padding: 100px;
+    position: absolute;
+}
+
+.item-1{
+    background: url(1.jpg) center/cover;
+    display: block;
+}
+.item-2{
+    background: url(2.jpg) center/cover;    
+}
+.item-3{
+    background: url(3.jpg) center/cover;
+}
+.item-4{
+    background: url(4.jpg) center/cover;
+}
+.slide-item{
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 35%;
+    background: white;
+}
+.slide{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+button img{
+    width: 25px;
+}
+button{
+    z-index: 50;
+    position: absolute;
+    top: 200px;
+    background: none;
+    border: none;
+}
+
+.next{
+    right: 20px;
+}
+.back{
+    left: 20px;
+    transform: scaleX(-1);
+    opacity: 20%;
+}
+
+.ativo{
+    display: block;
+}
