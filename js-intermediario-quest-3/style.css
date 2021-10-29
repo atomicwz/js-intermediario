@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(168, 184, 184);
+    overflow-y: hidden;
+}
+.box{
+    display: flex;
+    width: 900px;
+    gap: 60px;
+    background-image: url(bg-repeat.jpg);
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 15px;
+    margin: 275px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-item-1{
+    max-width: 40%;
+}
+
+.box-item-1 h1{
+    font-weight: 900;
+    line-height: 1.2;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.box-item-1 p{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box-item-2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    background: white;
+    padding: 20px;
+}
+.box-item-2 input{
+    margin: 0 auto 5px auto;
+    width: 95%;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.box-item-2 textarea{
+    padding: 10px;
+    width: 95%;
+    height: 150px;
+    margin: 0 auto 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.box-item-2 p{
+    margin-left: 2.7%;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.box-item-2 button{
+    margin: 30px auto 0 auto;
+    width: 95%;
+    border: none;
+    background: rgb(111, 196, 111);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.box-item-2 button:hover{
+    background: rgb(121, 216, 121);
+}
+.box-item-2 .validacao{
+    color: red;
+    opacity: 0%;
+}
